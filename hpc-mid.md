@@ -3,7 +3,7 @@
 1. Open your favourite terminal emulator.
 2. Run following commands:
 
-```sh
+```bash
     sudo apt update && sudo apt upgrade
 ```
 3. When asked to confirm press Enter.
