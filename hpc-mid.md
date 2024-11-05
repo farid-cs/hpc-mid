@@ -16,10 +16,10 @@
 ## Jetty installation
 1. Install Java Runtime Environment
 
-```sh
-    sudo apt install default-jre
-```
-![JRE installation](install-jre.png)
+    ```sh
+        sudo apt install default-jre
+    ```
+    ![JRE installation](install-jre.png)
 
 2. Download jetty from [jetty.org](https://jetty.org/download.html)
 ![jetty website](jetty-website.png)
