@@ -15,7 +15,8 @@
 ```sh
     sudo apt install default-jre
 ```
-    ![JRE installation](install-jre.png)
+
+   ![JRE installation](install-jre.png)
 2. Download jetty from [jetty.org](https://jetty.org/download.html)
     ![jetty website](jetty-website.png)
 3. I will download it into current directory using wget
