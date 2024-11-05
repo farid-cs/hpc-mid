@@ -23,7 +23,7 @@
 ```sh
     wget https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-home/10.0.24/jetty-home-10.0.24.tar.gz
 ```
-    ![wget jetty](download-jetty.png)
+   ![wget jetty](download-jetty.png)
 5. Create Java and Java/jetty-base folders
 ```
     mkdir -p Java/jetty-base
