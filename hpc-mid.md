@@ -3,7 +3,6 @@
 1. Open your favourite terminal emulator.
 
 2. Run following commands:
-
     ```sh
         sudo apt update && sudo apt upgrade
     ```
@@ -15,7 +14,6 @@
 
 ## Jetty installation
 1. Install Java Runtime Environment
-
     ```sh
         sudo apt install default-jre
     ```
@@ -25,7 +23,6 @@
     ![jetty website](jetty-website.png)
 
 3. I will download it into current directory using wget
-
     ```sh
         wget https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-home/10.0.24/jetty-home-10.0.24.tar.gz
     ```
@@ -37,7 +34,8 @@
     ```
 
 5. Extract the downloaded file into Java folder
-    ```
+    ```sh
         cd Java
-        tar -xvf jetty-home-10.0.24.tar.gz
+        tar -xf jetty-home-10.0.24.tar.gz
     ```
+    ![Extract jetty](extract-jetty.png)
