@@ -11,6 +11,7 @@
     ![System update](system-update.png)
 ## Jetty installation
 1. Install Java Runtime Environment
+
 ```sh
     sudo apt install default-jre
 ```
