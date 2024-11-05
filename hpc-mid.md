@@ -1,13 +1,13 @@
 # XWiki installation
 ## System update (optional)
-1. Open your favourite terminal emulator.
+1. Open your favourite terminal emulator
 
 2. Run following commands:
     ```sh
         sudo apt update && sudo apt upgrade
     ```
 
-3. When asked to confirm press Enter.
+3. When asked to confirm press Enter
 
 4. Wait for update to finish. You should see output like this:
     ![System update](system-update.png)
@@ -39,3 +39,22 @@
         tar -xf jetty-home-10.0.24.tar.gz
     ```
     ![Extract jetty](extract-jetty.png)
+
+6. Install jetty server
+    ```sh
+        mv jetty-home-10.0.24 jetty-home
+        cd jetty-base
+        java -jar ../jetty-home/start.jar --add-module=server,http,deploy
+    ```
+    ![Install jetty](install-jetty.png)
+
+7. Testing jetty with demos
+    ```sh
+        java -jar ../jetty-home/start.jar --add-module=demo
+        java -jar ../jetty-home/start.jar
+    ```
+    ![Test jetty](test-jetty-demo.png)
+    ![Test jetty](test-jetty-start.png)
+
+8. Open browser at localhost:8080 to verify that demo is running
+    ![Jetty at localhost](jetty-running.png)
