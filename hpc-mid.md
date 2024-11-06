@@ -12,7 +12,7 @@
 4. Wait for update to finish. You should see output like this:
     ![System update](system-update.png)
 
-## Jetty installation
+## Setting up Jetty
 1. Install Java Runtime Environment
     ```sh
         sudo apt install default-jre
@@ -58,3 +58,16 @@
 
 8. Open browser at localhost:8080 to verify that demo is running
     ![Jetty at localhost](jetty-running.png)
+
+## Setting up PostgreSQL
+1. Install postresql package
+    ```sh
+        apt install postgresql
+    ```
+
+2. Switch to user postgres (this user has all the priviliges to the database)
+    ```sh
+        postresql
+    ```
+
+3. 
