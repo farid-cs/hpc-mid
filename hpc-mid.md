@@ -67,6 +67,6 @@
 
 2. Switch to user postgres and start postgres shell
     ```sh
-	sudo su postgres
+        sudo su postgres
         postresql
     ```
