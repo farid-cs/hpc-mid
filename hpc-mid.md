@@ -65,9 +65,8 @@
         apt install postgresql
     ```
 
-2. Switch to user postgres (this user has all the priviliges to the database)
+2. Switch to user postgres and start postgres shell
     ```sh
+	sudo su postgres
         postresql
     ```
-
-3. 
